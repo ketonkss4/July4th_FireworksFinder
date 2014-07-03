@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<locations>
+    <locs>
+        <locId>1</locId>
+        <locCity>Minneapolis</locCity>
+        <locState>MN</locState>
+        <description>Red, White and BOOM celebrates Independence Day with music, entertainment and family fun on the Minneapolis Riverfront on July 3 and 4. Fireworks are at 10 p.m. on July 4. (NOTE: Powderhorn Park, Minneapolis will still host a Fourth of July celebration — with live music, children’s activities, and local food vendors — but will NOT feature a fireworks display this year.)</description>
+        <locLocation>221 SE Main St Minneapolis, MN </locLocation>
+    </locs>
+    <locs>
+        <locId>2</locId>
+        <locCity>Albert Lea</locCity>
+        <locState>MN</locState>
+        <description>On July 3, come see the largest parade in Southern Minnesota at 6 p.m. The parade has over 100 units and will travel Bridge and Fountain Streets.
+            July 4 is one of the largest fireworks display in Southern Minnesota and Northern Iowa. Watch the beautiful reflection off of Fountain Lake at 10 p.m..
+            Prior to the fireworks, the 4th Of July celebration will include:
+            Community Band concert at 8 p.m. at the Gazebo.
+            Bayside Ski Show at 2 p.m. at Edgewater Park.
+            Car Show from 4 – 7 p.m. on N. Broadway.</description>
+        <locLocation>350</locLocation>
+    </locs>
+    <locs>
+        <locId>3</locId>
+        <locCity>Alexandria</locCity>
+        <locState>MN</locState>
+        <description>Enjoy a free concert on the courthouse lawn beginning at 7 p.m. Friday, July 4. The concert is presented by the Red Willow Arts Coalition and will have a patriotic theme.
+            Star Storm 2014 is a music and fireworks spectacular that is presented each year on the grounds of Arrowwood Resort. Tune your radio to KX92 – 92.3 FM to hear a patriotic sound track to the
+            largest fireworks show in West Central Minnesota. It’s FREE and open to the public. Rainbow Rider shuttles will be running from the stables beginning at 7 p.m., fireworks begin at 10 p.m.</description>
+        <locLocation>Alexandria, MN</locLocation>
+    </locs>
+
+</locations>

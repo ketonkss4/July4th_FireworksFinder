@@ -36,6 +36,4 @@ public class MapActivity extends Activity {
         return true;
     }
 
-
-
 }

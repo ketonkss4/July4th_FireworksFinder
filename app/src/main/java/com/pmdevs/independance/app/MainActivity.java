@@ -28,7 +28,7 @@ public class MainActivity extends Activity {
                 {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent (getApplicationContext(), MapActivity.class);
+                        Intent intent = new Intent (getApplicationContext(), ListEvents.class);
                         intent.putExtra("ZIP_INFO",zipCode.toString());
 //                        intent.putExtra("RADIUS",radius.toString());
                         startActivity(intent);

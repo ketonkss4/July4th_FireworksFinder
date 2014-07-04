@@ -1,8 +1,11 @@
 package com.pmdevs.independance.app;
 
 
+import android.content.Intent;
 import android.location.Address;
 import android.location.Geocoder;
+import android.net.Uri;
+import android.util.Log;
 import android.widget.Toast;
 
 import com.google.android.gms.maps.CameraUpdate;
@@ -10,7 +13,9 @@ import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.MapFragment;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
+import com.pmdevs.independance.app.module.Locations;
 
 import java.io.IOException;
 import java.util.List;
@@ -75,8 +80,7 @@ public class MapView extends MapFragment {
             List<Address> list = gc.getFromLocationName(location, 1);
 
             Address add = list.get(0);
-            String locality = add.getLocality();
-            Toast.makeText(getActivity(), locality, Toast.LENGTH_LONG).show();
+
 
 
             latLng = new LatLng(add.getLatitude(), add.getLongitude());
@@ -86,13 +90,39 @@ public class MapView extends MapFragment {
             String addressText = String.format("%s, %s",
                     add.getMaxAddressLineIndex() > 0 ? add.getAddressLine(0) : "",
                     add.getCountryName());
+            Locations lc = new Locations();
+            String snippet = lc.getDescription();
 
             markerOptions = new MarkerOptions();
             markerOptions.position(latLng);
             markerOptions.title(addressText);
+            markerOptions.snippet(snippet);
+
 
 
             getMap().addMarker(markerOptions);
+
+            getMap().setOnInfoWindowClickListener(new GoogleMap.OnInfoWindowClickListener() {
+                @Override
+                public void onInfoWindowClick(Marker marker) {
+
+                    Double lat = latLng.latitude;
+                    Double lng = latLng.longitude;
+
+                    String lt = String.valueOf(lat);
+                    String lg = String.valueOf(lng);
+
+
+
+
+                    String uriString = "geo:0,0?q=" + lt + "," + lg + "Fireworks Here!";
+                    Log.i(LOGTAG,uriString );
+                    Uri uri = Uri.parse(uriString);
+                    Intent intent = new Intent(android.content.Intent.ACTION_VIEW, uri);
+                    intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    startActivity(intent);
+                }
+            });
 
             // Locate the first location
             if (add == null) {

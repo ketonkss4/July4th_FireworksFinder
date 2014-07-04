@@ -21,6 +21,7 @@ public class LocationDataSource {
     SQLiteOpenHelper dbhelper;
     SQLiteDatabase database;
 
+
     private static final String[] allColumns = {
             LocationsDB.COLUMN_ID,
             LocationsDB.COLUMN_CITY,
@@ -80,4 +81,5 @@ public class LocationDataSource {
         }
         return locs;
     }
+
 }

@@ -48,6 +48,7 @@ public class ListEvents extends ListActivity {
             Log.i(LOGTAG, "Data Created");
             locs = dataSource.findAll();
         }
+
         final ArrayAdapter<Locations> adapter = new ArrayAdapter<Locations>(this,
                 R.layout.row, locs);
         final LocationsAdapter madapter = new LocationsAdapter(this,R.layout.row,locs);

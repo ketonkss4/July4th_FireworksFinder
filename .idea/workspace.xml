@@ -33,14 +33,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c19097c5-08da-4345-9ca4-1255c736fdc5" name="Default" comment="added user interface activity and map view fragment">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/pmdevs/independance/app/adapter/LocationsAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/row.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/pmdevs/independance/app/ListEvents.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/pmdevs/independance/app/ListEvents.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/pmdevs/independance/app/module/Locations.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/pmdevs/independance/app/module/Locations.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/pmdevs/independance/app/util/LocationsPullParser.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/pmdevs/independance/app/util/LocationsPullParser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/pmdevs/independance/app/LocationDataSource.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/pmdevs/independance/app/LocationDataSource.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/pmdevs/independance/app/MapView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/pmdevs/independance/app/MapView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/fireworks_locations.xml" afterPath="$PROJECT_DIR$/app/src/main/res/raw/fireworks_locations.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Independance.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -80,9 +75,13 @@
       <file leaf-file-name="MapView.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pmdevs/independance/app/MapView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4688057" vertical-offset="944" max-vertical-offset="2159">
-              <caret line="83" column="44" selection-start-line="83" selection-start-column="44" selection-end-line="83" selection-end-column="44" />
-              <folding />
+            <state vertical-scroll-proportion="-5.810811" vertical-offset="1774" max-vertical-offset="2873">
+              <caret line="117" column="86" selection-start-line="117" selection-start-column="86" selection-end-line="117" selection-end-column="86" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3053#3818#0" expanded="true" />
+                <element signature="e#3803#3804#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -90,13 +89,13 @@
       <file leaf-file-name="ListEvents.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pmdevs/independance/app/ListEvents.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="2941">
-              <caret line="47" column="42" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="952" max-vertical-offset="2958">
+              <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1500#1511#0" expanded="true" />
-                <element signature="e#1934#2930#0" expanded="true" />
-                <element signature="e#2919#2920#0" expanded="true" />
+                <element signature="e#1501#1512#0" expanded="true" />
+                <element signature="e#1935#2931#0" expanded="true" />
+                <element signature="e#2920#2921#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -130,8 +129,8 @@
       <file leaf-file-name="LocationDataSource.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pmdevs/independance/app/LocationDataSource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="697" max-vertical-offset="1343">
-              <caret line="75" column="44" selection-start-line="75" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="1377">
+              <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -150,7 +149,7 @@
       <file leaf-file-name="LocationsDB.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pmdevs/independance/app/LocationsDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="935">
+            <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="935">
               <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -175,6 +174,11 @@
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="true" />
     </FindUsagesManager>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="C:\Users\Administrator.KevinMoturi-HP\.android\my.keystore" />
+    <option name="KEY_ALIAS" value="pmdev" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -945,11 +949,11 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/row.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/pmdevs/independance/app/adapter/LocationsAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/pmdevs/independance/app/module/Locations.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/pmdevs/independance/app/ListEvents.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/pmdevs/independance/app/MapView.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/pmdevs/independance/app/LocationDataSource.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/pmdevs/independance/app/util/LocationsPullParser.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/raw/fireworks_locations.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/pmdevs/independance/app/ListEvents.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/pmdevs/independance/app/LocationDataSource.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/pmdevs/independance/app/MapView.java" />
       </list>
     </option>
   </component>
@@ -1303,6 +1307,11 @@
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Andy-Tablet" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/.android/debug.keystore" />
+    <property name="ExportedModule" value="app" />
+    <property name="ExportedApkPath" value="C:\Users\Administrator.KevinMoturi-HP\Desktop\Android Dev\Independance\app\app.apk" />
+    <property name="AndroidRunProguardForReleaseBuild" value="false" />
+    <property name="AndroidProguardConfigPaths" value="C:\Program Files (x86)\Android\android-studio\sdk\tools\proguard\proguard-android.txt" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -1494,8 +1503,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -1504,7 +1513,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6689304" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.9677419" sideWeight="0.570997" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.9677419" sideWeight="0.570997" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.9677419" sideWeight="0.570997" order="1" side_tool="true" content_ui="tabs" />
@@ -1627,7 +1636,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="1683">
           <caret line="48" column="31" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3053#3818#0" expanded="true" />
+            <element signature="e#3803#3804#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1714,7 +1727,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1479">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3053#3818#0" expanded="true" />
+            <element signature="e#3803#3804#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1749,7 +1766,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="340">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3053#3818#0" expanded="true" />
+            <element signature="e#3803#3804#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1927,19 +1948,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pmdevs/independance/app/ListEvents.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="2941">
-          <caret line="47" column="42" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1500#1511#0" expanded="true" />
-            <element signature="e#1934#2930#0" expanded="true" />
-            <element signature="e#2919#2920#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pmdevs/independance/app/adapter/LocationsAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1224">
@@ -1961,10 +1969,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pmdevs/independance/app/ListEvents.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="952" max-vertical-offset="2958">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1501#1512#0" expanded="true" />
+            <element signature="e#1935#2931#0" expanded="true" />
+            <element signature="e#2920#2921#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pmdevs/independance/app/module/Locations.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="799">
           <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pmdevs/independance/app/LocationDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="1377">
+          <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/raw/fireworks_locations.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2750" max-vertical-offset="9622">
+          <caret line="111" column="38" selection-start-line="111" selection-start-column="38" selection-end-line="111" selection-end-column="38" />
           <folding />
         </state>
       </provider>
@@ -1979,27 +2016,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/raw/fireworks_locations.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2750" max-vertical-offset="9622">
-          <caret line="111" column="38" selection-start-line="111" selection-start-column="38" selection-end-line="111" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pmdevs/independance/app/LocationDataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="697" max-vertical-offset="1343">
-          <caret line="75" column="44" selection-start-line="75" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pmdevs/independance/app/MapView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4688057" vertical-offset="944" max-vertical-offset="2159">
-          <caret line="83" column="44" selection-start-line="83" selection-start-column="44" selection-end-line="83" selection-end-column="44" />
-          <folding />
+        <state vertical-scroll-proportion="-5.810811" vertical-offset="1774" max-vertical-offset="2873">
+          <caret line="117" column="86" selection-start-line="117" selection-start-column="86" selection-end-line="117" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3053#3818#0" expanded="true" />
+            <element signature="e#3803#3804#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,6 +1,7 @@
 package com.pmdevs.independance.app;
 
 import android.app.ListActivity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
@@ -8,6 +9,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import com.pmdevs.independance.app.module.Locations;
 
@@ -22,7 +24,7 @@ public class ListEvents extends ListActivity {
     private static final String LOGTAG = "LOCA";
     LocationDataSource dataSource;
     private static final String DB_PATH = "data/data/<com.pmdevs.independance.app>/databases/<db name>";
-
+    ListView listView;
 
 
     @Override
@@ -48,10 +50,34 @@ public class ListEvents extends ListActivity {
                 android.R.layout.simple_list_item_1, locs);
         setListAdapter(adapter);
 
-        ListView listView = new ListView();
+        listView = (ListView)findViewById(android.R.id.list);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View view,
                                     int position, long id) {
+
+                String v = listView.getItemAtPosition(position).toString();
+
+                Log.v("value ", "result is " + v);
+
+
+                Log.i(LOGTAG,"attempted string conversion");
+
+//                if (v !=null){
+//                    Toast.makeText(ListEvents.this, v , Toast.LENGTH_LONG).show();
+//                } else {
+//                    Toast.makeText(ListEvents.this, "text is null", Toast.LENGTH_LONG).show();
+//                }
+                if (v != null){
+                    Intent intent = new Intent (ListEvents.this, MapActivity.class);
+                    intent.putExtra("LOC",v);
+
+                    startActivity(intent);
+                }else{
+                    Toast.makeText(ListEvents.this, "Location not found" , Toast.LENGTH_LONG).show();
+                }
+
+
+
 
             }
         });

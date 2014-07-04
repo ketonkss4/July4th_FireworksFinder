@@ -54,7 +54,7 @@ public class Locations {
     @Override
     public String toString() {
 
-        String all = getCity()+getState()+getLocation();
+        String all = getLocation();
         return all;
 
     }

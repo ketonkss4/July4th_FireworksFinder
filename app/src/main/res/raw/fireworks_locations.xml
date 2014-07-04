@@ -17,7 +17,7 @@
             Community Band concert at 8 p.m. at the Gazebo.
             Bayside Ski Show at 2 p.m. at Edgewater Park.
             Car Show from 4 – 7 p.m. on N. Broadway.</description>
-        <locLocation>350</locLocation>
+        <locLocation>Albert Lea, MN</locLocation>
     </locs>
     <locs>
         <locId>3</locId>
@@ -28,5 +28,65 @@
             largest fireworks show in West Central Minnesota. It’s FREE and open to the public. Rainbow Rider shuttles will be running from the stables beginning at 7 p.m., fireworks begin at 10 p.m.</description>
         <locLocation>Alexandria, MN</locLocation>
     </locs>
+    <locs>
+        <locId>4</locId>
+        <locCity>Andover</locCity>
+        <locState>MN</locState>
+        <description> July 3rd — Fireworks at AHS, at dusk
+            July 4th — Family Fun in The Park:
+            Pancake Breakfast — 8 – 11 am
+            Jazz Band — 8 – 10 am
+            Horribles Parade line-up — 9 am
+            Horribles Parade — 9:30 am
+            Games in The Park — 10 – 11:30 am
+            Middlesex Concert Band — 10:30 – noon</description>
+        <locLocation>Andover, MN</locLocation>
+    </locs>
+    <locs>
+        <locId>5</locId>
+        <locCity>Blaine</locCity>
+        <locState>MN</locState>
+        <description> What’s an Independence Day celebration
+            without fireworks? Have your cameras ready and be
+            prepared to be amazed by a fireworks display like no
+            other Firework Extravaganza on July 4th at 10 p.m. at
+            the National Sports Center</description>
+        <locLocation>1700 150th Ave NE Blaine, MN</locLocation>
+    </locs>
+    <locs>
+        <locId>6</locId>
+        <locCity>Bloomington</locCity>
+        <locState>MN</locState>
+        <description>Summer Fete on July 3 celebrates Independence Day with a kid’s carnival, entertainment and live music.
+            Fireworks will begin around 10 p.m. at Normandale Lake Bandshell.</description>
+        <locLocation> Lake Bandshell Bloomington, MN</locLocation>
+    </locs>
+    <locs>
+        <locId>7</locId>
+        <locCity>Brainard</locCity>
+        <locState>MN</locState>
+        <description>July 3rd
+            5 p.m. Trampoline Bungee jumps, dunk tanks and food vendors
+            5 – 8 p.m. Petting Zoo by Safari North Wildlife Park
+            8 – 10 p.m. Music performance by Taylor Reed
+            Fireworks, presented by Zambelli Fireworks, begin after dusk at the International-High School Ball Fields.
+            July 4
+            9 a.m.-4 p.m. Flea Market, Craft Fair and Food Vendors – Trailside Park
+            10 a.m. Money in the Haystack-Trailside Park
+            10:30 a.m. Kiddie Parade Registration-Chamber Building Parking Lot
+            11 a.m. Kiddie Parade-Chamber Building Parking Lot
+            12 p.m. Stars and Stripes Parade</description>
+        <locLocation> Lake Bandshell Bloomington, MN</locLocation>
+
+    </locs>
+    <locs>
+        <locId>8</locId>
+        <locCity>Chanhassen</locCity>
+        <locState>MN</locState>
+        <description>The Chanhassen Fourth of July Celebration runs from July 2-4. For more information, see the city website.</description>
+        <locLocation>1456 West 78th Street, Chanhassen, MN</locLocation>
+    </locs>
+
+
 
 </locations>

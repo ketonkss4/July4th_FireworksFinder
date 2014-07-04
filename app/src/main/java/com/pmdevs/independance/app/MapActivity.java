@@ -26,7 +26,24 @@ public class MapActivity extends Activity {
         fragmentTransaction.add(R.id.fragment_container, mapView);
         fragmentTransaction.commit();
 
-
+//        MapView mapObj = new MapView();
+//        mapObj.setArguments(getIntent().getExtras());
+//        getFragmentManager().beginTransaction().add(
+//                android.R.id.content, mapObj).commit();
+//        Intent intent = new Intent();
+//        Bundle info = intent.getExtras();
+//        String loc = null;
+//        if (info != null){
+//             loc = info.getString("LOC");
+//        }
+//
+//        Bundle frag = new Bundle();
+//        frag.putString("value",loc);
+//
+//
+//        MapView mapObj = new MapView();
+//        mapObj.setArguments(frag);
+//        fragmentTransaction.replace(R.id.fragment_container,frag);
 
 
     }

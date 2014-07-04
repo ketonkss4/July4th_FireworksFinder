@@ -3,7 +3,6 @@ package com.pmdevs.independance.app;
 
 import android.location.Address;
 import android.location.Geocoder;
-import android.util.Log;
 import android.widget.Toast;
 
 import com.google.android.gms.maps.CameraUpdate;
@@ -12,7 +11,6 @@ import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.MapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
-import com.pmdevs.independance.app.module.Locations;
 
 import java.io.IOException;
 import java.util.List;
@@ -32,6 +30,12 @@ public class MapView extends MapFragment {
     public MapView() {
     }
 
+    public String getShownIndex() {
+        String loc = getActivity().getIntent().getStringExtra("LOC");
+        return loc;
+
+    }
+
     @Override
     public void onStart() {
         super.onStart();
@@ -40,11 +44,14 @@ public class MapView extends MapFragment {
         getMap().animateCamera(update);
 
         dataSource = new LocationDataSource(getActivity());
+
+
         try {
             geoLocate();
         } catch (IOException e) {
             e.printStackTrace();
         }
+
 
     }
     public void geoLocate () throws IOException {
@@ -63,7 +70,7 @@ public class MapView extends MapFragment {
 //        }
         if(newString!=null) {
 
-            String location = newString + " ,MN";
+            String location = getShownIndex();
 
             List<Address> list = gc.getFromLocationName(location, 1);
             Address add = list.get(0);
@@ -106,19 +113,19 @@ public class MapView extends MapFragment {
         super.onPause();
         dataSource.close();
     }
-    private void createData() {
-        Locations locations = new Locations();
-        locations.setCity("Minneapolis");
-        locations.setState("MN");
-        locations.setDescription("Red, White and BOOM celebrates Independence Day with music, entert" +
-                "ainment and family fun on the Minneapolis Riverfront on July 3 and 4. Fireworks are at 10 p.m. " +
-                "on July 4. (NOTE: Powderhorn Park, Minneapolis will still host a Fourth of July celebration — with " +
-                "live music, children’s activities, and local food vendors — but will NOT feature a fireworks display this year");
-        locations.setLocation("221 SE Main St\n" +
-                "Minneapolis, MN ");
-
-        locations = dataSource.create(locations);
-        Log.i(LOGTAG, "Locations put with id:" + locations.getId());
-    }
+//    private void createData() {
+//        Locations locations = new Locations();
+//        locations.setCity("Minneapolis");
+//        locations.setState("MN");
+//        locations.setDescription("Red, White and BOOM celebrates Independence Day with music, entert" +
+//                "ainment and family fun on the Minneapolis Riverfront on July 3 and 4. Fireworks are at 10 p.m. " +
+//                "on July 4. (NOTE: Powderhorn Park, Minneapolis will still host a Fourth of July celebration — with " +
+//                "live music, children’s activities, and local food vendors — but will NOT feature a fireworks display this year");
+//        locations.setLocation("221 SE Main St\n" +
+//                "Minneapolis, MN ");
+//
+//        locations = dataSource.create(locations);
+//        Log.i(LOGTAG, "Locations put with id:" + locations.getId());
+//    }
 }
 

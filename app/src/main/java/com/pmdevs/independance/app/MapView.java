@@ -73,6 +73,7 @@ public class MapView extends MapFragment {
             String location = getShownIndex();
 
             List<Address> list = gc.getFromLocationName(location, 1);
+
             Address add = list.get(0);
             String locality = add.getLocality();
             Toast.makeText(getActivity(), locality, Toast.LENGTH_LONG).show();
@@ -94,8 +95,9 @@ public class MapView extends MapFragment {
             getMap().addMarker(markerOptions);
 
             // Locate the first location
-            if (add == null)
+            if (add == null) {
                 getMap().animateCamera(CameraUpdateFactory.newLatLng(latLng));
+            }
         } else {
             Toast.makeText(getActivity(), "Location not Found", Toast.LENGTH_LONG).show();
         }

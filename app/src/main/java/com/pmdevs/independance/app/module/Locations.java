@@ -54,8 +54,8 @@ public class Locations {
     @Override
     public String toString() {
 
-        String all = getLocation();
-        return all;
 
+        return "Location [city=" + city + ", state=" + state + ", desc="
+                + description + ", location=" + location + "]";
     }
 }

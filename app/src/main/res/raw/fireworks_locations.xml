@@ -88,5 +88,473 @@
     </locs>
 
 
+    <locs>
+        <locId>9</locId>
+    <locCity>chaska</locCity>
+    <locState>MN</locState>
+    <description>The city of Chaska sponsored fireworks is at McKnight Park starting at dusk on July 4.
+        The best viewing is from McKnight Park and the Home Depot parking lot.</description>
+        <locLocation>Chaska, MN</locLocation>
+    </locs>
+
+    <locs> <locCity>coonrapids</locCity>
+        <locId>10</locId>
+        <locState>MN</locState>
+        <description>Also features a carnival, craft and craft show, live music and parade.</description>
+        <locLocation>1008 Northdale Blvd. NW, Coon Rapids, Minn.</locLocation> </locs>
+
+
+    <locs>
+        <locId>11</locId>
+    <locCity>cottage grove</locCity>
+    <locState>MN</locState>
+    <description>Celebrations kick off at 6 p.m. at Kingston Park with a family style picnic, games and food on Friday, July 4. Fireworks are scheduled for 10 p.m.</description>
+        <locLocation>Cottage Grove, MN</locLocation>
+    </locs>
+
+    <locs> <locCity>delano</locCity>
+        <locState>MN</locState>
+        <description>Come and join us for Minnesota's Oldest and Largest 4th of July Celebration
+            in 2014 ; July 2, 3, 4, 5! Over the four days of events you can join tens of thousands as
+            they enjoy a wide variety of food and drink, bingo, the nightly dances in the Entertainment Tent
+            American Legion Baseball Tournament modified and slow pitch softball tournaments (tourney bracket PDFs now available!), a
+            bean bag tournament, a kiddie parade, a 5K Race and the Delano Royalty Coronation, all surrounded by the fun and excitement of
+            GoldStar Amusements carnival NOTE: While flooding has had minimal impact on the Central Park in Delano, organizers have made adjustments
+            to parking areas to accommodate guests. Additional parking has been provided, and free parking and shuttle service from Delano High School
+            will be provided.</description>
+        <locLocation>Delano, MN</locLocation> </locs>
+
+
+    <locs> <locCity>duluth</locCity>
+        <locState>MN</locState>
+
+        <description>Date: 7/4/2014
+            Time: 10:10 p.m.
+            Location: Bayfront Festival Park
+
+            Admission: Free
+            Details: Visit Bayfront Festival Park during the Independence Day Celebration! Duluthians and
+            visitors alike will enjoy this FREE community celebration. Gates open at 4 p.m. and entertainment begins at 4:30 p.m.
+        </description>
+        <locLocation> Railroad St. and S. Fifth Ave. W., Duluth, Minn.</locLocation> </locs>
+
+    <locs> <locCity>Eagan</locCity>
+        <locState>MN</locState>
+        <description>July 3 8211; 4, 2014. A star-spangled celebration is in store for you during
+            Eagan's July 4 Funfest
+            Celebration! Enjoy the Fourth of July Parade, Miss Eagan Funfest Ambassador Program, a carnival
+            filled with thrilling rides and amusing games, live entertainment, and of course; a breathtaking fireworks
+            display at 10 p.m.</description>
+        <locLocation>Eagan, MN</locLocation> </locs>
+
+
+    <locs> <locCity>edenprairie</locCity>
+        <locState>MN</locState>
+
+        <description>Date: 7/4/2014
+            Time: 10 p.m.
+            Location: Round Lake Park
+
+            Admission: Free
+            Details: The Eden Prairie Hometown Celebration will be held from 7:30 a.m. to 11 p.m. July 4. The event will include music and food, and will culminate in a 10 p.m. fireworks show.
+        </description>
+        <locLocation>16691 Valley View Road, Eden Prairie, Minn</locLocation> </locs>
+
+    <locs> <locCity>edina</locCity>
+        <locState>MN</locState>
+
+        <description>Date: 7/4/2014
+            Time: 10 p.m.
+            Location: Rosland Park
+            Admission: Free
+            Link: </description>
+        <locLocation>4300 W. 66th St., Edina, Minn</locLocation> </locs>
+
+    <locs> <locCity>elkriver</locCity>
+        <locState>MN</locState>
+        <description><strong>Elk River</strong></description>
+        <description>Date: 7/4/2014
+            Time: 10 p.m.
+            Location: Lions Park
+            Exact Location: 1104 Lions Park Drive, Elk River, Minn.
+            Admission: Free
+            Details: Family activities, food, music and more begin at 4 p.m.
+        </description>
+        <locLocation>1104 Lions Park Drive, Elk River, Minn</locLocation> </locs>
+
+
+    <locs> <locCity>Minnetonka</locCity>
+        <locState>MN</locState>
+
+        <description>Date: 7/4/2014
+            Time: Dusk
+            Location: Commons Park
+            Admission: Free
+            Details: The concert is free, as is parking.
+        </description>
+        <locLocation>Minnetonka, Minn</locLocation> </locs>
+
+    <locs> <locCity>fairmont</locCity>
+        <locState>MN</locState>
+
+        <description>Date: 7/4/2014
+            Time: 10 p.m.
+            Location: Ward and Sylvania Parks
+            Exact Location: Ward: Albion Ave. and Webster Street; Sylvania: Beach Street and W. 3rd Street, Fairmont, Minn.
+            Admission: Free
+            Details: One of greater Minnesota8217;s largest fireworks displays. Originating at Heritage Acres, the displays begin at dark and can be watched from Ward and Sylvania Parks.
+        </description>
+        <locLocation> W. 3rd Street, Fairmont, Minn</locLocation> </locs>
+
+
+    <locs> <locCity>faribault</locCity>
+        <locState>MN</locState>
+
+        <description>The annual 4th of July Fireworks Display will be held near South and North Alexander Parks. The show starts at 10:15 pm. In case of rain, the show will be held on July 5th. The show is sponsored by the Faribault Charitable Gambling Board.</description>
+        <locLocation> faribault, Minn</locLocation> </locs>
+
+
+    <locs> <locCity>forestlake</locCity>
+        <locState>MN</locState>
+        <description>Date: 7/4/2014
+            Time: 10 p.m.
+            Location: Forest Lake, Minn.
+            Exact Location: Forest Lake, Minn.
+            Admission: Free
+            Details: Parade at 10 a.m.
+        </description>
+        <locLocation> Forest Lake, Minn.</locLocation> </locs>
+
+
+    <locs> <locCity>hamlake</locCity>
+        <locState>MN</locState>
+        <description>Ham Lake Residents will once again be able to celebrate the 4th of July close to home in Lions Park. The Don Hansen VFW Post will sponsor its annual celebration in honor of area veterans. Partying begins at 3 p.m. on the 4th with many fun activities! The Fireworks Display will begin at dusk!</description>
+        <locLocation> Ham Lake, Minn.</locLocation> </locs>
+
+
+    <locs> <locCity>hastings</locCity>
+        <locState>MN</locState>
+        <description>The annual F4th of July fireworks display is set for 10 p.m. Friday, July 4, at the Hastings Country Club. As it has for many years, the Vermillion State Bank is sponsoring the display.</description>
+        <locLocation> Hastings, Minn.</locLocation> </locs>
+
+
+
+    <locs> <locCity>hudson</locCity>
+        <locState>WI</locState>
+
+        <description>Date: 7/5/2014
+            Time: 9-10 p.m.
+            Location: Lakefront Park
+            Exact Location: First St. &amp; Locust St., Hudson, Wis
+            Admission: Free
+        </description>
+
+        <locLocation>Locust St Hudson, Wis </locLocation> </locs>
+
+    <locs> <locCity>lakeville</locCity>
+        <locState>MN</locState>
+        <description>The Panorama of Progress, the Pan-O-Prog, is in its 48th year. The 10 day celebration, from July 4 until July 14, includes a car show, parade, sports tournaments and more. On July 4, there8217;s a parade, festival and firework show. The fireworks celebration will begin at 7 p.m. with a performance by the CASTAWAYS, followed by the fireworks display at 10 p.m. Fireworks can be seen from Lakeville North High School.</description>
+        <locLocation>Lakeville, MN </locLocation> </locs>
+
+    <locs> <locCity>mankato</locCity>
+        <locState>MN</locState>
+        <description>Date: 7/4/2014
+            Time: 10 p.m.
+            Location: Riverfront Park
+            Exact Location: Riverfront Drive and Rock Street, Mankato, Minn.
+            Admission: Free
+            Details: The annual Red Hot &amp; Boom celebration features live music, live radio broadcast and fireworks. The celebration kicks off at 7 p.m.
+        </description>
+        <locLocation>Riverfront Drive Mankato, MN </locLocation> </locs>
+
+
+    <locs> <locCity>maplegrove</locCity>
+        <locState>MN</locState>
+        <description>During Maple Grove Days, July 10-14, the city will feature parades, games, food, competitions, street dances and much more at the Maple Grove Community Center. Fireworks will be on July 13 at dusk.</description>
+        <locLocation>maplegrove, MN </locLocation> </locs>
+
+
+    <locs> <locCity>maplewood</locCity>
+        <locState>MN</locState>
+        <description>The 4th of July celebration, Light It Up Maplewood, starts at 4 p.m. at Hazelwood Park, 1663 County Road C East. The event is free with live entertainment starting at 6:30 p.m. The event ends with the annual fireworks show.</description>
+        <locLocation>maplewood, MN </locLocation> </locs>
+
+
+
+    <locs> <locCity>Marine</locCity>
+        <locState>MN</locState>
+        <description>Help us celebrate Marine's Annual 4th of July festivities!
+            Our fantastic fireworks spectacular will be Thursday, July 3rd in downtown Marine at dusk.</description>
+        <locLocation>Marine, MN </locLocation> </locs>
+
+
+
+    <locs> <locCity>Mendota Heights</locCity>
+        <locState>MN</locState>
+        <description>The Mendakota Country Club will be having July 4th fireworks for their members, but people can view the fireworks at nearby parking lots. The fireworks will be happening at 10 p.m. on July 4th at the Mendakota Country Club located at 2075 Mendakota Drive, Mendota Heights, Minn.</description>
+        <locLocation>Mendota, MN </locLocation> </locs>
+
+
+    <locs> <locCity>moorhead</locCity>
+        <locState>MN</locState>
+        <description><span style="text-decoration:underline;">University of Minnesota Moorhead</span>
+            6:30 p.m. Concessions at Nemzek Hall &amp; Stadium
+            7:00 p.m. Inflatable games (until 9:30 p.m.)
+            7:30 p.m. Kids8217; Decorated Bike Parade, Sponsored by Moorhead Public Service
+            7:30 p.m. Lake Agassiz Concert Band
+            8:30 p.m. Front Fenders
+            10:30 p.m. Fireworks, Sponsored by American Crystal Sugar
+        </description>
+        <locLocation>Moorhead, MN </locLocation> </locs>
+
+
+    <locs> <locCity>New Prague</locCity>
+        <locState>MN</locState>
+        <description>New Prague will have fireworks at 10:10 p.m. Thursday, July 3 east of the New Prague Middle School. This year8217;s fireworks is sponsored by NPCL Mutual Insurance Company. Bring a non-perishable food item to donate to the Peace Center Food Drive.</description>
+        <locLocation>New Prague, MN </locLocation> </locs>
+
+    <locs> <locCity>northfield</locCity>
+        <locState>MN</locState>
+        <description>Date: 7/4/2014
+            Time: 10 p.m.
+            Location: Northfield Middle School ground
+            Exact Location: 220 Division St. S.
+        </description>
+        <locLocation>220 Division St. S Northfield, MN </locLocation> </locs>
+
+    <locs> <locCity>Oakdale</locCity>
+        <locState>MN</locState>
+        <description>Date: 7/4/2014
+            Time: 4 p.m. 8212; vendors open
+            Location: Richard Walton Park
+            Exact Location: 1584 Hadley Ave N, Oakdale, Minn.
+            Admission: Free
+            Details: Oakdale8217;s Fourth of July celebration will feature vendors and live music in addition to fireworks. Most vendors will open at 4 p.m., and the Rockin8217; Hollywoods are set to play at the bandshell from 7 8211; 10 p.m.
+        </description>
+        <locLocation>1584 Hadley Ave N, Oakdale, Minn </locLocation> </locs>
+
+
+    <locs> <locCity>Owatonna</locCity>
+        <locState>MN</locState>
+        <description>Fireworks will be held at 10 p.m. at the Steele County Fairgrounds, located at 1525 S. Cedar Ave.</description>
+        <locLocation>Owatona, MN </locLocation> </locs>
+
+
+    <locs> <locCity>parkrapids</locCity>
+        <locState>MN</locState>
+
+        <description>The city of Park Rapids will celebrate the 4th of July with a 5K run/walk at 9 a.m. Following the race, there will be a baking contest and auction. Entry is $5 per pie. All pies will be auctioned at 3:30 p.m. The annual 4th of July parade will begin on Main Street at 5 p.m. Following the parade the Park Rapids Area Community band will perform at 7:30 p.m., finishing with a fireworks display over Fish Hook River and Heartland Park.</description>
+        <locLocation>Park Rapids, MN </locLocation> </locs>
+
+
+    <locs> <locCity>plymouth</locCity>
+        <locState>MN</locState>
+
+        <description>Date: 7/1/2014
+            Time: 10:15 p.m.
+            Location: Hilde Performance Center
+            Exact Location: 3450 Plymouth Blvd, Plymouth, MN
+            Admission: Free
+            Details: Tuesday, July 1, is their only summer day with fireworks
+        </description>
+        <locLocation>3450 Plymouth Blvd, Plymouth, MN</locLocation> </locs>
+
+
+    <locs> <locCity>priorlake</locCity>
+        <locState>MN</locState>
+        <description>Date: 7/4/2014
+            Time: 10 p.m.
+            Location: Mystic Lake Hotel and Casino
+            Exact Location: 2400 Mystic Lake Blvd., Prior Lake, MN
+            Admission: Free
+            Details: Live bands and food trucks. Festivities start at 5 p.m. Fireworks at 10 p.m.
+        </description>
+        <locLocation>2400 Mystic Lake Blvd., Prior Lake, MN </locLocation> </locs>
+
+    <locs> <locCity>richfield</locCity>
+        <locState>MN</locState>
+        <description>Date: 7/4/2014
+            Time: 10 p.m.
+            Location: Veteran8217;s Memorial Park
+            Exact Location: Veteran's Memorial Park, 64th Street and Portland Avenue S., Richfield, Minn.
+            Admission: Free
+            Details: Festivities begin on July 2 and run through July 5.
+        </description>
+        <locLocation>Veteran's Memorial Park, Richfield, Minn. </locLocation> </locs>
+
+
+    <locs> <locCity>robbinsdale</locCity>
+        <locState>MN</locState>
+        <description>Date: 7/10/2014 7/13/2014
+            Location: Robbinsdale, Minn.
+            Exact Location: Event dependent.
+            Admission: Free
+            Details: Festivities begin on July 10 and run through July 13.
+        </description>
+        <locLocation> Robbinsdale, Minn</locLocation> </locs>
+
+    <locs> <locCity>rochester</locCity>
+        <locState>MN</locState>
+        <description>On July 4, Riverside Concerts presents Chuck Blattner directing the Rochester Concert Band
+            performing a concert in tribute to the anniversary of our country8217;s independence at the Silver Lake
+            Park soccer field. The concert is FREE to the public and will precede the fireworks display.
+            Fireworks start at 10 p.m.</description>
+        <locLocation>Rochester, MN </locLocation> </locs>
+
+
+    <locs> <locCity>roseville</locCity>
+        <locState>MN</locState>
+        <description>Date: 7/4/2014
+            Time: 1:30-10:30 p.m.
+            Location: Central Park-Lexington East
+            Exact Location: 2540 Lexington Ave., Roseville, MN
+            Admission: Free
+            Details: Music and vendors throughout the afternoon and evening, fireworks at dusk.
+        </description>
+        <locLocation>2540 Lexington Ave, Roseville, MN</locLocation> </locs>
+
+
+    <locs> <locCity>shakopee</locCity>
+        <locState>MN</locState>
+        <description><strong>Shakopee</strong></description>
+        <description>Valleyfair, Shakopee: Fireworks at 9:50 p.m. on July 4 near Planet Snoopy Plaza. Also, all active and retired military personnel get free admission on July 3 8211; July 6.</description>
+        <locLocation>Valleyfair Shakopee, MN </locLocation> </locs>
+
+
+    <locs> <locCity>shoreview</locCity>
+        <locState>MN</locState>
+
+        <description>Slice of Shoreview Days will be from July 23-27 at Island Lake County Park.
+            Most of the events will take place across the weekend from July 25-27. For more information,
+            here. Some of the highlights include:
+            Friday, July 26
+            3:30 p.m. Helicopter Rides
+            4:30 p.m. Amateur Talent Show winners
+            5 p.m. Carnival
+            10 p.m. Fireworks
+            Saturday, July 27
+            10 a.m. Parade, carnival
+            Noon Bungee Trampoline &amp; Climbing Wall
+            10 p.m. Fireworks
+            Sunday, July 28
+            8 a.m. Pancake Breakfast
+            11 a.m. Carnival
+            Noon Car and motorcycle show</description>
+        <locLocation>Shoreview, MN </locLocation> </locs>
+
+
+    <locs> <locCity>St.Cloud</locCity>
+        <locState>MN</locState>
+        <description>Date: 7/4/2014
+            Time: 10 p.m.
+            Location: Hester Park/Wilson Park
+            Admission: Free
+            Details: St. Cloud is proud to present the 67th annual July 4 Fireworks display along the banks of the Mississippi River in the heart of beautiful St. Cloud, Minne. Synchronized to a special soundtrack, this years fireworks show promises to cap a sensational day of fun and relaxation with one of the largest fireworks displays anywhere in Minnesota on July 4!
+        </description>
+        <locLocation>Wilson Park St.Cloud, MN </locLocation> </locs>
+
+
+    <locs> <locCity>St Joseph</locCity>
+        <locState>MN</locState>
+
+        <description>4th Of July Festival 2014
+            Thursday, July 3
+            5:50 p.m. 8212; Festival Opening Prayer
+            6 p.m. 8212; Free 8220;Joetown Rocks8221; Concert* Sponsored by All Saints Academy,
+            Leighton Broadcasting, Pam’s Auto, Sentry Bank, Sunset Manufacturing, and Tiremaxx Service.
+            6 p.m. 8212; KJ And The Graduates
+            6:45 p.m. 8212; Jeremiah James Korfe
+            8 p.m. 8212; 8220;Rumours and Dreams – A Fleetwood Mac Tribute8221; by Pamela McNeill, Mary Jane Alm, and Jeff Engholm
+            10:15 p.m. 8212; Fireworks Sponsored by Bernicks
+            10:30 p.m. 8212; Shalo Lee Band
+            Friday, July 4
+            8 a.m. 8212; Mass
+            10 a.m. 8212; Parade Sponsored by the Lions Club
+            11 a.m. 8212; Bingo, Games, Food, Refreshments (on parish grounds)
+            11:30 a.m. 8212; Live Music by 8220;Smok8217;N Guns Band8221;
+            2 p.m. 8212; Quilt Auction
+            3:30 p.m. 8212; Raffle Drawing</description>
+        <locLocation>St Joseph, MN </locLocation> </locs>
+
+
+    <locs> <locCity>St Louis Park</locCity>
+        <locState>MN</locState>
+        <description>Date: 7/4/2014
+            Time: 10 p.m.
+            Location: Aquila Park
+            Exact Location: 3110 Xylon Ave. S., St. Louis Park, Minn.
+            Admission: Free
+            Details: Concessions, vendors and live music from 7 p.m. to 9:30 p.m. Rain date: July 5 (Weather line is 952-924-2567)
+        </description>
+        <locLocation>3110 Xylon Ave. S., St. Louis Park, Minn</locLocation> </locs>
+
+
+    <locs> <locCity>St Michael</locCity>
+        <locState>MN</locState>
+        <description>While it may not have it8217;s own fireworks display, residents of St. Michael are invited to view Elk River8217;s
+            4th of July fireworks just a few miles away at Lions Park.
+            Date: 7/4/2014
+            Time: 10 p.m.
+            Location: Lions Park
+            Exact Location: 1104 Lions Park Drive, Elk River, Minn.
+            Admission: Free
+            Details: Family activities, food, music and more begin at 4 p.m.
+        </description>
+        <locLocation>1104 Lions Park Drive, Elk River, Minn</locLocation> </locs>
+
+
+    <locs> <locCity>stewartville</locCity>
+        <locState>MN</locState>
+        <description>Summerfest 2014
+            Date: 7/4/2014
+            Time: 6 p.m. parade, fireworks at dusk
+            Location: Florence Park
+            Exact Location: Lakeshore Drive NW and 2nd Street NW, Stewartville, Minn.
+            Admission: Free
+            Details: Summerfest 2014 begins on Thursday, July 3 with a street dance at 6 p.m. Friday8217;s events will
+            include a fun run, arts in the park, a parade and the fireworks at dusk.
+        </description>
+        <locLocation>Lakeshore Drive NW Stewartville, MN </locLocation> </locs>
+
+
+    <locs> <locCity>stillwater</locCity>
+        <locState>MN</locState>
+        <description>A day of live music and entertainment in downtown
+            Stillwater is followed by fireworks over the St. Croix at dusk.
+            Fourth of July fireworks/concert &amp; fun: Come for an old-fashioned J
+            uly Fourth celebration in Lowell Park on the St. Croix River. Fireworks start at
+            10 p.m.</description>
+        <locLocation>Stillwater, MN </locLocation> </locs>
+
+
+    <locs> <locCity>waconia</locCity>
+        <locState>MN</locState>
+        <description>Waconia will have their Fantastic Fireworks Show on July 4 at dusk on the eastern edge of Lake Waconia Regional Park. Viewing is best from a boat on Lake Waconia, Lola8217;s Lakehouse, Lake Waconia Regional Park and Laketown Parkway. Rain Date is July 5.</description>
+        <locLocation>Waconia, MN </locLocation> </locs>
+
+    <locs> <locCity>whitebearlake</locCity>
+        <locState>MN</locState>
+        <description>Date: 7/4/2014
+            Time: 8 p.m. Music starts, 10 p.m. Fireworks.
+            Location: West Park and Memorial Beach
+            Exact Location: 4980 Lake Ave N, White Bear Lake, Minn.
+            Admission: Free
+            Details: Part of Manitou days, this display features a spectacular fireworks show set to music over the lake. Earlier in the day, enjoy food, arts &amp; crafts, classic car show, kids activities &amp; more.
+        </description>
+        <locLocation>4980 Lake Ave N, White Bear Lake, Minn </locLocation> </locs>
+
+
+    <locs> <locCity>Woodbury</locCity>
+        <locState>MN</locState>
+        <description>Date: 7/4/2014
+            Time: 7 p.m. 8211; festivities begin
+            Location: Bielenberg Sports Center
+            Exact Location: 4125 Radio Dr, Woodbury, Minn.</description>
+        <locLocation>4125 Radio Dr, Woodbury, Minn</locLocation> </locs>
+
+
+
+
+
 
 </locations>

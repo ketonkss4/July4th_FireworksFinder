@@ -25,7 +25,7 @@ public class LocationsPullParser {
     private static final String SHOW_LOC = "locLocation";
 
 
-    public List<Locations> parseXML(Context context) {
+    public  List<Locations> parseXML(Context context) {
         // list of locations to return
 
         List<Locations> locs = new ArrayList<Locations>();
